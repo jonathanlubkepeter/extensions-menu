@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="JonathanPeter_ExtensionsMenu::ExtensionsMenu" title="JonathanPeter Extensions" module="JonathanPeter_ExtensionsMenu" sortOrder="50" resource="Magento_Backend::content"/>
+        <add id="JonathanPeter_ExtensionsMenu::modulo1" title="Modulo 1" module="JonathanPeter_ExtensionsMenu" sortOrder="10" action="adminhtml/system_config/edit/section/modulo1" resource="Magento_Backend::content" parent="JonathanPeter_ExtensionsMenu::ExtensionsMenu"/>
+        <add id="JonathanPeter_ExtensionsMenu::modulo2" title="Modulo 2" module="JonathanPeter_ExtensionsMenu" sortOrder="20" action="adminhtml/system_config/edit/section/modulo2" resource="Magento_Backend::content" parent="JonathanPeter_ExtensionsMenu::ExtensionsMenu"/>
+        <add id="JonathanPeter_ExtensionsMenu::modulo3" title="Modulo 3" module="JonathanPeter_ExtensionsMenu" sortOrder="30" action="adminhtml/system_config/edit/section/modulo3" resource="Magento_Backend::content" parent="JonathanPeter_ExtensionsMenu::ExtensionsMenu"/>
+    </menu>
+</config>
