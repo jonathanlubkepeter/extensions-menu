@@ -1,6 +1,6 @@
 .admin__menu .level-0.item-extensionsmenu > a:before {
     content: url('../images/peterTecnology.svg');
-    height: 28px;
+    height: 30px;
     margin: 0 auto;
-    width: 100px;
+    width: 70px;
 }
